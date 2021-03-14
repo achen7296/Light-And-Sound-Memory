@@ -1,0 +1,111 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #252525;
+  color: 	#FBEEC1; 
+  text-align:center
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  width: 75px;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: verdana, arial, sans-serif;
+  font-weight : bold;
+}
+
+#strikeLabel{
+  margin-left: 20px;
+}
+
+#progress {
+  width: 40%;
+  height: 30px;
+  position: relative;
+  background-color: #ddd;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+#bar {
+  background-color: #4CAF50;
+  width: 0px;
+  height: 30px;
+  position: absolute;
+}
+
+#startBtn {
+    background: #FBEEC1;
+}
+
+#stopBtn{
+    background: #FBEEC1;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin: 15px
+}
+
+img {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+#strike{
+  font-weight:bold;
+  font-family: verdana, arial, sans-serif; 
+  display: 
+}
+
+#button1 {
+    background: #FF0000;
+}
+
+#button1:active, #button1.lit {
+    background: #8b0000;;
+}
+
+#button2 {
+    background: #FF7F00;
+}
+
+#button2:active, #button2.lit {
+    background: #b36200;
+}
+
+#button3 {
+    background: #FFFF00;
+}
+
+#button3:active, #button3.lit {
+    background: #CCCC00;
+}
+
+#button4 {
+    background: #00FF00;
+}
+
+#button4:active, #button4.lit {
+    background:	#006400;
+}
+
+#button5 {
+    background: #0099CC;
+}
+
+#button5:active, #button5.lit {
+    background: #0000FF;
+}
