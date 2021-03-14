@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <p class = "border">
+      <h1>Light and Sound Memory Game</h1>
+      <h3>Created by: Andrew Chen</h3>
+        Repeat back the pattern by pressing buttons! <br>
+        Three wrong guesses and you lose!
+    </p>
+
+    <div id = "strike">
+      <button id="startBtn" onclick = "startGame()">
+        Start
+      </button>
+      <button id="stopBtn" class = "hidden" onclick = "stopGame()">
+        Stop
+      </button>
+      <label id = "strikeLabel" class = "hidden"> Strike: <label id = "strikeOut"></label> </label>
+    </div>
+  
+    <div id = "progress" class = "hidden">
+      <div id = "bar"></div>
+    </div>
+
+    <div id = "gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+    </div>
+  
+    <img src="https://cdn.glitch.com/d2694ac6-1ff6-49af-892b-b7e230be6173%2FWin.png?v=1615701824742" id = "win" class = "hidden" width = "400px" height = "400px">
+    <img src="https://cdn.glitch.com/d2694ac6-1ff6-49af-892b-b7e230be6173%2FLose.png?v=1615702404310" id = "lose" class = "hidden" width = "400px" height = "400px">
+  
+  </body>
+</html>
