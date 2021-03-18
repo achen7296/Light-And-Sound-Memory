@@ -53,7 +53,7 @@ Stackoverflow.com
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-  A big challenege that I had to overcome was the implementation of the timer with the loading bar. The visual timer was extremely difficult because not only does it act as the timer, the visual bar needed to be 
+  A big challenge that I had to overcome was the implementation of the timer with the loading bar. The visual timer was extremely difficult because not only does it act as the timer, the visual bar needed to be 
 corresponding to the time left. The link between the visuals and backend was for sure the most difficult part in this project. The biggest issue I had was uniting the actual timer with the visual bar. 
 As users continued guessing the patterns correctly, the bar for the last pattern would not disappear but be overlapped with a bar for the current pattern until the timer for the old pattern ran out. I figured 
 out that the reason for all the bars showing up was due to the unaccounted setInterval instances, this was when I had the idea to create the resetTimer function. The resetTimer function solved many issues as it would be 
